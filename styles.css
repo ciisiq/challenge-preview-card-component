@@ -171,3 +171,37 @@ span:hover {
 }
 
 /* --------------- End FOOTER --------------- */
+/* --------------- Start Mobile --------------- */
+
+@media only screen and (max-width: 389px) {
+  .card-container {
+    border-radius: 1rem;
+    width: 22rem;
+    height: 37rem;
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  .card-container {
+    border-radius: 1rem;
+    width: 20rem;
+    height: 35rem;
+  }
+
+  .object {
+    border-radius: 0.6rem;
+    width: 17rem;
+  }
+
+  .layer {
+    width: 17rem;
+    height: 16.9rem;
+    margin: 1.5rem 0 1rem 0;
+    border-radius: 0.7em;
+  }
+
+  .icon-view {
+    top: 7.2rem;
+    left: 7.1rem;
+  }
+}
